@@ -1,4 +1,6 @@
-class Test5 {
+package 魔法方法
+
+class 魔法方法 {
 
     static void main(String[] args) {
         println([1, 2, 3, 4, 3].count(1))

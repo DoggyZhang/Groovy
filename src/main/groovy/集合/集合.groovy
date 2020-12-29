@@ -1,9 +1,11 @@
+package 集合
+
 import java.util.function.Consumer
 
-class Test4 {
+class 集合 {
 
     static void main(String[] args) {
-        Test4.test4()
+        集合.test4()
     }
 
     static void test1() {

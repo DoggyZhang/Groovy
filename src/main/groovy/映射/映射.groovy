@@ -1,9 +1,11 @@
+package 映射
+
 import java.util.function.Consumer
 
-class Test6 {
+class 映射 {
 
     static void main(String[] args) {
-        Test6.test2()
+        映射.test3()
     }
 
     static void test1(){
@@ -21,5 +23,14 @@ class Test6 {
     static void test2(){
         def hash = [name:"Andy", "VPN-#":45]
         assert hash.getClass() == java.util.LinkedHashMap
+    }
+
+
+    static void test3(){
+        def hash = [name:'Zhangfei']
+        assert hash["name"] == "Zhangfei"
+        hash["gender"] = "male"
+        assert hash.gender == "male"
+        assert hash["gender"] == "male"
     }
 }

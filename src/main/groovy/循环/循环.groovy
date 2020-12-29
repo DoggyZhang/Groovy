@@ -1,4 +1,6 @@
-class Test3 {
+package 循环
+
+class 循环 {
 
     static void main(String[] args) {
 
